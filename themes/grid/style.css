@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:10:"style.less";s:8:"compiled";s:8091:"body {
+body {
  width:100%;
  *zoom:1;
 }
@@ -45,7 +45,7 @@ h1 {
  font-family:Cambria, Georgia, Times, 'Times New Roman', serif;
  font-size:2.375em;
  line-height:1.1579;
- border-bottom:5px solid #cccccc;
+ border-bottom:5px solid #000000;
  margin-bottom:21px;
  color:000;
 }
@@ -212,6 +212,29 @@ body {
  text-align:center;
  font-size:1.5em;
  padding-left:10px;
+}
+#navbar ul.menu {
+  list-style-type:none;
+  padding:2px 8px;
+  margin:0;
+}
+#navbar ul.menu li {
+  padding:0;
+  margin:0;
+  display:inline;
+}
+#navbar ul.menu li a {
+  padding:6px 8px;
+  text-decoration:none;
+  border:2px solid transparent;
+}
+#navbar ul.menu li a:hover {
+  background:#dddddd;
+  border:2px solid #999999;
+}
+#navbar ul.menu li a.selected {
+  background:#cccccc;
+  border:2px solid #999999;
 }
 #inner-wrap-flash {
  width:960px;
@@ -380,4 +403,3 @@ a:focus {
 .info a { color:#205791; }
 .smaller-text { font-size:smaller; }
 .silent { color:#999999; }
-";s:5:"files";a:2:{s:83:"/home/saxon/students/20122/kapc12/www/phpmvc/kmom06/GetupMVC/themes/grid/style.less";i:1357675253;s:111:"/home/saxon/students/20122/kapc12/www/phpmvc/kmom06/GetupMVC/themes/grid/semantic.gs/stylesheets/less/grid.less";i:1355738859;}s:7:"updated";i:1357675255;}
