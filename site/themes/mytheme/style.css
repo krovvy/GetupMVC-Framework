@@ -3,26 +3,134 @@
 */
 @import url(../../../themes/grid/style.css);
 
-/* Change the background color of the HTML and Body */
+/**
+*	HTML and Body 
+********************/
 html
 	{background-color:#FFFFFF;}
+
 body
 	{background-color:#FFD073;}
 
-/* Header */
+/** 
+*	Header 
+********************/
 #outer-wrap-header
 	{background-color:#FFFFFF;
 	border-bottom:2px solid #FFFFFF}
+
+#inner-wrap-header 
+	{}
+
+#header 
+	{}	
+
+
+	/**
+Site banner
+********************/
+#banner #site-title 
+	{text-shadow:none;}
 	
-/* Footer */
+#banner 
+	{}
+ 
+#banner #site-logo 
+	{}
+	
+#banner #site-title 
+	{}
+	
+#banner #site-title a 
+	{}
+	
+#banner #site-slogan 
+	{}
+	
+/**
+*	Navigation menu
+********************/
+#navbar ul.menu li a.selected 
+	{}
+		
+#navbar ul.menu 
+	{}
+  
+#navbar ul.menu li 
+	{}
+	
+#navbar ul.menu li a 
+	{}
+	
+#navbar ul.menu li a:hover 
+	{}
+
+#navbar ul.menu li a.selected 
+	{}
+	
+/**
+*	Login
+*/
+
+#login-menu 
+	{}
+
+#login-menu img.gravatar 
+	{}
+	
+#login-menu a 
+	{}
+	
+#login-menu a:hover 
+	{text-decoration:underline;}
+	
+
+	
+/** 
+*	Footer 
+********************/
 #outer-wrap-footer
 	{background-color:#000000}
 
-/* Change link color */
+#inner-wrap-footer 
+	{}
+	
+#inner-wrap-footer:after 
+	{}
+
+#footer 
+	{display:inline;
+	float:left;
+	width:940px;
+	margin:0 10px;
+	color:#666666;}
+
+#inner-wrap-footer-column 
+	{}
+#inner-wrap-footer-column:before 
+	{}
+#inner-wrap-footer-column:after 
+	{}
+#inner-wrap-footer-column:after 
+	{}
+#footer-column-one 
+	{}
+#footer-column-two 
+	{}
+#footer-column-three 
+	{}
+#footer-column-four 
+	{}
+
+
+/** 
+*	Links 
+********************/
 a
 	{color:#436370}
 
-/* Navigation bar i.e Menu */
-#navbar ul.menu li a.selected 
-	{background-color:#FFD073;
-	border-bottom:none;}
+a:hover 
+	{}
+	
+a:focus 
+	{}
