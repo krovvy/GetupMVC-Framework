@@ -1,5 +1,6 @@
 <h1>Blog</h1>
-<p>All nice news and blogposts about me.</p>
+<p>All nice news and blogposts about me. Clik on  <a href='<?=create_url("content")?>'>view all content</a> to add new content and more.</p>
+
 
 <?php if($contents != null):?>
   <?php foreach($contents as $val):?>
