@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteBase /~kapc12/phpmvc/kmom07/GetupMVC/
+RewriteBase /~your/file/location/GetupMVC-Framework/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
