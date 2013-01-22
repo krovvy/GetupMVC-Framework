@@ -26,12 +26,12 @@ $ cd ../../d/wamp/www/Map
 
 Alternativt skapa en ny mapp på den önskade platsen...:
 <pre>
-$ mkdir MapName
+$ mkdir FolderName
 </pre>
 
 Och öppnar den:
 <pre>
-$ cd MapName
+$ cd FolderName
 </pre>
 
 <h3>2. Klona</h3>
@@ -59,9 +59,9 @@ För att sedan installera GetupMVC initierar du databasen genom att klicka på l
 
 Ramverket är installerat och klar för användning!
 
-*************
+
 <h2>Konfiguration</h2>
-*************
+
 
 <h3>Utseende CSS</h3>
 För att ändra utseendet på GetupMVC så öppnar du GetupMVC-Framework/site/themes/mytheme/style.css i en filredigerare, till exempel Dreamweaver eller jEdit.
@@ -91,7 +91,7 @@ mywork.php
 
 Följ stegen nedan för att lära dig hur man lägger till en ny sida till din webbsida.
 
-<h4>CCMycontroller.php</h4>
+<h5>CCMycontroller.php</h5>
 Om du vill lägga till en ny sida till din hemsida så börjar du med att öppna GetupMVC-Framework/site/src/CCMycontroller/CCMycontroller.php.
   I början av dokumentet, på rad 13, så finns tre rubriker som lyder "The page about me", "The blog" och "The guestbook". Under dessa rubriker så finns det var sin publik funktion som sköter presentationen av var och en av dem. Här lägger du till en ny publik funktion för att börja skapa en ny sida.
   Här nedan finns ett exempel på hur koden för "About me" sidan ser ut, under rubriken "The page about me":
@@ -129,7 +129,7 @@ databastabell i CMContent, vilket håller i default texter för ramverket), titl
   }
 </code></pre>
 
-<h4>config.php</h4>
+<h5>config.php</h5>
 Nästa fil som behöver ändras är GetupMVC-Framework/site/config.php. Öppna den. På radnummer 124, under rubriken 
 "Define menues", så finns det en kodrad som lyder: $ly->config['menus']. För att ändra webbsidans meny så behöver 
 du gå ner till rad 132: 'my-navbar' => array(, varav därunder redan finns tre alternativ: 'home', 'blog' 
@@ -146,7 +146,7 @@ samt 'guestbook':
 Den raden som börjar med "work" är raden som har lagts till. Det som har ändrats i jämförelse med de andra 
 raderna är orden 'work', 'My work' samt 'my/work'. Du lägger menyalternativen i vilken ordning som du än önskar. 
 
-<h4>mywork.php</h4>
+<h5>mywork.php</h5>
 Det sista som behöver göras är att skapa en ny php fil, vilket i det här fallet kallas mywork.php. Du kan skapa 
 den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fil. Den här filen kan du sedan 
 fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod för att skapa en rubrik och en 
