@@ -1,5 +1,9 @@
+<h1>GetupMVC</h1>
+GetupMVC is a MVC inspired framework. This document will show you how to install and how to configure runimentary functionality. This document will continue in swedish.
+
+
 *************
-Installation 
+<h2>Installation</h2> 
 *************
 
 *Setup
@@ -57,7 +61,7 @@ För att sedan installera GetupMVC initierar du databasen genom att klicka på l
 Ramverket är installerat och klar för användning!
 
 *************
-Konfiguration
+<h2>Konfiguration</h2>
 *************
 
 *Utseende CSS
