@@ -111,6 +111,7 @@ och "The guestbook". Under dessa rubriker så finns det var sin publik funktion 
 av var och en av dem. Här lägger du till en ny publik funktion för att börja skapa en ny sida.
   Här nedan finns ett exempel på hur koden för "About me" sidan ser ut, under rubriken "The page about me":
 
+<code>
  /**
 * The page about me
 */
@@ -121,6 +122,7 @@ av var och en av dem. Här lägger du till en ny publik funktion för att börja
                   'content' => $content,
                 ));
   }
+</code>
 
 Det som behöver ändras är alltså numret i $content = new CMContent(5), titlen 'About me' samt '/page.tpl.php'. 
 Rubriken "The page about me" är inte nödvändig för att koden ska fungera utan för att hålla ordning på 
@@ -129,6 +131,7 @@ innehållet och dokumentationen.
 databastabell i CMContent, vilket håller i default texter för ramverket), titlen 'My work', sid-filen 
 'page2.tpl.php' och rubriken "The page about my work":
 
+<code>
  /**
 * The page about my work
 */
@@ -139,6 +142,7 @@ databastabell i CMContent, vilket håller i default texter för ramverket), titl
                   'content' => $content,
                 ));
   }
+</code>
 
 -config.php
 Nästa fil som behöver ändras är GetupMVC-Framework/site/config.php. Öppna den. På radnummer 124, under rubriken 
@@ -146,11 +150,13 @@ Nästa fil som behöver ändras är GetupMVC-Framework/site/config.php. Öppna d
 du gå ner till rad 132: 'my-navbar' => array(, varav därunder redan finns tre alternativ: 'home', 'blog' 
 samt 'guestbook':
 
+<code>
 //      'my-navbar' => array(
 //          'home' => array('label'=>'About Me', 'url'=>'my'),
 //          'work' => array('label'=>'My Work', 'url'=>'my/work'),
 //          'blog' => array('label'=>'My Blog', 'url'=>'my/blog'),
 //          'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
+</code
 
 Den raden som börjar med "work" är raden som har lagts till. Det som har ändrats i jämförelse med de andra 
 raderna är orden 'work', 'My work' samt 'my/work'. Du lägger menyalternativen i vilken ordning som du än önskar. 
@@ -161,10 +167,12 @@ den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fi
 fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod för att skapa en rubrik och en 
 paragraf i den nya sidan:
 
+<code>
 //      <h1>My work</h1>
 //      <p>
 //      My work stuff
 //      </p>
+</code>
 
 Det som är speciellt med page.tpl.php är koden som finns där gör det möjligt att redigera sidans innehåll på webben. 
 Allt beror på vad som passar bäst för användarens behov. page.tpl.php ligger i 
