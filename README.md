@@ -150,10 +150,10 @@ fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod
 paragraf i den nya sidan:
 
 <pre><code>
-       <h1>My work</h1>
-       <p>
-       My work stuff
-       </p>
+//     <h1>My work</h1>
+//     <p>
+//     My work stuff
+//     </p>
 </code></pre>
 
 Det som är speciellt med page.tpl.php är koden som finns där gör det möjligt att redigera sidans innehåll på webben. 
