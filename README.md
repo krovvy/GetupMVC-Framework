@@ -20,7 +20,9 @@ Du kommer automatiskt hamna i C:/User/UserName om du installerat Git Bash på C:
 steg så använder du två punkter, ett par för varje mapp, som i exemplet nedan där man gått från 
 C:/User/Username till D:/wamp/www/Map:
 
+<pre>
 $ cd ../../d/wamp/www/Map
+</pre>
 
 Alternativt skapa en ny mapp på den önskade platsen...:
 $ mkdir MapName
