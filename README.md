@@ -21,7 +21,7 @@ $ cd Your_desierd_loaction
 Du kommer automatiskt hamna i C:/User/UserName om du installerat Git Bash på C:. För att gå upp ett eller flera steg så använder du två punkter, ett par för varje mapp, som i exemplet nedan där man gått från C:/User/Username till D:/wamp/www/Map:
 
 <pre>
-$ cd ../../d/wamp/www/Map
+$ cd ../../d/wamp/www/Mapp
 </pre>
 
 Alternativt skapa en ny mapp på den önskade platsen...:
@@ -148,18 +148,7 @@ raderna är orden 'work', 'My work' samt 'my/work'. Du lägger menyalternativen 
 
 <h5>mywork.php</h5>
 Det sista som behöver göras är att skapa en ny php fil, vilket i det här fallet kallas mywork.php. Du kan skapa 
-den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fil. Den här filen kan du sedan 
-fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod för att skapa en rubrik och en 
-paragraf i den nya sidan:
-
-<pre>
-//     <h1>My work</h1>
-//     <p>
-//     My work stuff
-//     </p>
-</pre>
+den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fil och fylla med den html och php kod som än vill.
 
 Det som är speciellt med page.tpl.php är koden som finns där gör det möjligt att redigera sidans innehåll på webben. 
-Allt beror på vad som passar bäst för användarens behov. page.tpl.php ligger i 
-GetupMVC-Framewrok/site/src/CCMycontroller. Spara alla uppdateringar och öppna GetupMVC ramverket online på adressen: 
-www.your.server/GetupMVC/my/work.  
+Allt beror på vad som passar bäst för användarens behov. page.tpl.php ligger i GetupMVC-Framewrok/site/src/CCMycontroller. Spara alla uppdateringar och öppna GetupMVC ramverket online på adressen: www.your.server/GetupMVC/my/work.  
