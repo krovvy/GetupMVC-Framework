@@ -111,7 +111,7 @@ och "The guestbook". Under dessa rubriker så finns det var sin publik funktion 
 av var och en av dem. Här lägger du till en ny publik funktion för att börja skapa en ny sida.
   Här nedan finns ett exempel på hur koden för "About me" sidan ser ut, under rubriken "The page about me":
 
-<code>
+<pre><code>
  /**
 * The page about me
 */
@@ -122,7 +122,7 @@ av var och en av dem. Här lägger du till en ny publik funktion för att börja
                   'content' => $content,
                 ));
   }
-</code>
+</code></pre>
 
 Det som behöver ändras är alltså numret i $content = new CMContent(5), titlen 'About me' samt '/page.tpl.php'. 
 Rubriken "The page about me" är inte nödvändig för att koden ska fungera utan för att hålla ordning på 
