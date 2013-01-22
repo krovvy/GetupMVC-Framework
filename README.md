@@ -114,7 +114,7 @@ av var och en av dem. Här lägger du till en ny publik funktion för att börja
  /**
 * The page about me
 */
-  public function Index() {
+ public function Index() {
     $content = new CMContent(5);
     $this->views->SetTitle('About me'.htmlEnt($content['title']))
                 ->AddInclude(__DIR__ . '/page.tpl.php', array(
@@ -146,11 +146,11 @@ Nästa fil som behöver ändras är GetupMVC-Framework/site/config.php. Öppna d
 du gå ner till rad 132: 'my-navbar' => array(, varav därunder redan finns tre alternativ: 'home', 'blog' 
 samt 'guestbook':
 
- 'my-navbar' => array(
-    'home' => array('label'=>'About Me', 'url'=>'my'),
-    'work' => array('label'=>'My Work', 'url'=>'my/work'),
-    'blog' => array('label'=>'My Blog', 'url'=>'my/blog'),
-    'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
+//      'my-navbar' => array(
+//          'home' => array('label'=>'About Me', 'url'=>'my'),
+//          'work' => array('label'=>'My Work', 'url'=>'my/work'),
+//          'blog' => array('label'=>'My Blog', 'url'=>'my/blog'),
+//          'guestbook' => array('label'=>'Guestbook', 'url'=>'my/guestbook'),
 
 Den raden som börjar med "work" är raden som har lagts till. Det som har ändrats i jämförelse med de andra 
 raderna är orden 'work', 'My work' samt 'my/work'. Du lägger menyalternativen i vilken ordning som du än önskar. 
@@ -161,10 +161,10 @@ den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fi
 fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod för att skapa en rubrik och en 
 paragraf i den nya sidan:
 
-<h1>My work</h1>
-<p>
-My work stuff
-</p>
+//      <h1>My work</h1>
+//      <p>
+//      My work stuff
+//      </p>
 
 Det som är speciellt med page.tpl.php är koden som finns där gör det möjligt att redigera sidans innehåll på webben. 
 Allt beror på vad som passar bäst för användarens behov. page.tpl.php ligger i 
