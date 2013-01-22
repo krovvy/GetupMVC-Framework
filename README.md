@@ -149,12 +149,12 @@ den här filen antingen genom att kopiera page.tpl.php eller skapa en tom php fi
 fylla med vilket innehåll som du än vill. Exemplet nedan visar på minimal kod för att skapa en rubrik och en 
 paragraf i den nya sidan:
 
-<pre><code>
+<pre>
 //     <h1>My work</h1>
 //     <p>
 //     My work stuff
 //     </p>
-</code></pre>
+</pre>
 
 Det som är speciellt med page.tpl.php är koden som finns där gör det möjligt att redigera sidans innehåll på webben. 
 Allt beror på vad som passar bäst för användarens behov. page.tpl.php ligger i 
